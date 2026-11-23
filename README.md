@@ -24,5 +24,5 @@ off-host or immutable copies, retention policy, key management, monitoring, and
 periodic restore drills. No retention deletion is automated here. SQLite backups
 are not a general PostgreSQL, MySQL, filesystem, or multi-service backup strategy.
 
-Record measured restore duration and the observation window when evaluating an
-RTO/RPO; this lab makes no production recovery guarantee.
+Measure restore duration and data freshness for your workload when evaluating
+recovery objectives.
